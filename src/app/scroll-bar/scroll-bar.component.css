@@ -1,0 +1,47 @@
+.chart-container {
+  height: 70vh;
+  width: 70vw;
+  position: relative;
+}
+
+.chart {
+  height: 100%;
+  width: 100%;
+}
+
+.leftIcon {
+  position: absolute;
+  width: 34px;
+  height: 60px;
+  background: rgba(76, 139, 231, 0.11);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 0px 30px 30px 0px;
+  color: #329DEE;
+  top: 46%;
+  text-align: center;
+  line-height: 60px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.rightIcon {
+  position: absolute;
+  width: 34px;
+  height: 60px;
+  background: rgba(76, 139, 231, 0.11);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 30px 0px 0px 30px;
+  color: #329DEE;
+  top: 46%;
+  right: 0px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.disabledIcon {
+  background: rgba(192, 199, 211, 0.10);
+  color: #D6D6D6;
+  cursor: not-allowed;
+}
